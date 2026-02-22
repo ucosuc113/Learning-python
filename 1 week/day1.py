@@ -1,4 +1,8 @@
-cosafea = 4
+numero = -5
 
-for i in range(128):
-    print(cosafea ** i)
+if numero > 0:
+    print("El número es positivo")
+elif numero == 0:
+    print("El número es cero")
+elif numero < 0:
+    print("El número es negativo")
