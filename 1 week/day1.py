@@ -1,2 +1,3 @@
-# comentario solo escribiendo algo raro
-print("hola mundo")
+estawea = 1
+
+print(estawea);
