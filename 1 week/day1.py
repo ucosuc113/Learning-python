@@ -1,5 +1,4 @@
-def suma(a, b):
-    return(a + b)
+def mensaje():
+    print("Estoy aprendiendo python")
 
-resultado = suma(3, 5)
-print("Resultado:", resultado)
+mensaje()
