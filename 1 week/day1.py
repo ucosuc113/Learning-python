@@ -1,5 +1,8 @@
-estawea = 1
+cosafea = 4
 
-quequiereswe = 733
-
-print("tu suma essss...:", estawea + quequiereswe)
+if cosafea > 5:
+    print("El número es mayor a 5")
+elif cosafea == 5:
+    print("El número es igual a 5")
+else:
+    print("El número es menor a 5")
