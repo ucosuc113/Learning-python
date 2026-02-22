@@ -18,7 +18,7 @@ def sesioniniciar():
 
     if sesion["username"] == usuario and sesion["password"] == contraseña:
         print("sesion iniciada correctamente")
-        return  # NO usar exit()
+        return exit()
     else:
         print("usuario o contraseña incorrectos")
         return sesioniniciar()
