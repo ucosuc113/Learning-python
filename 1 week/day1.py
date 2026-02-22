@@ -1,3 +1,3 @@
 estawea = 1
 
-print(estawea);
+print("tu numero es :0:", estawea)
