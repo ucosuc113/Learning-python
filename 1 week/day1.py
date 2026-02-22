@@ -1,4 +1,7 @@
 numero = 3
+cosaxd = 2
 
-for i in range(10):
-    print(numero, "x", i, "=", numero * i)
+def numero(nombre):   
+    print("hola mundo", nombre)
+
+numero("pepito")
