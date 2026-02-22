@@ -1,7 +1,5 @@
-numero = 3
-cosaxd = 2
+def suma(a, b):
+    return(a + b)
 
-def numero(nombre):   
-    print("hola mundo", nombre)
-
-numero("pepito")
+resultado = suma(3, 5)
+print("Resultado:", resultado)
