@@ -1,3 +1,5 @@
 estawea = 1
 
-print("tu numero es :0:", estawea)
+quequiereswe = 733
+
+print("tu suma essss...:", estawea + quequiereswe)
