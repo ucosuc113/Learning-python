@@ -1,21 +1,14 @@
-nota1 = float(input("introduce la primer nota: "))
+def pedir_nota(numero):
+    nota = float(input(f"ingrese la nota {numero}: "))
+    if nota < 1 or nota > 5:
+        print("nota no valida, ingrese una nota entre 1 y 5")
+        #exit()
+        return pedir_nota(numero)
+    return nota
 
-if nota1 < 1 or nota1 > 5:
-    print("la nota debe ser entre 1 y 5")
-    exit()
-    
-nota2 = float(input("introduce la segunda nota: "))
-
-if nota2 < 1 or nota2 > 5:
-    print("la nota debe ser entre 1 y 5")
-    exit()
-    
-nota3 = float(input("introduce la tercera nota: "))
-
-if nota3 < 1 or nota3 > 5:
-    print("la nota debe ser entre 1 y 5")
-    exit()
-    
+nota1 = pedir_nota(1)
+nota2 = pedir_nota(2)
+nota3 = pedir_nota(3)
 
 promedio = (nota1 + nota2 + nota3) / 3
 
