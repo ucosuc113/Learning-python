@@ -40,7 +40,6 @@ def registrarse():
     with open("sesion.json", "w") as archivo:
         json.dump(sesion, archivo, indent=4)
 
-# 🔁 BUCLE PRINCIPAL
 while True:
     opcion = inicio()
 
