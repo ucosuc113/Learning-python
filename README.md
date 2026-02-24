@@ -1,0 +1,1 @@
+This project is about learning Python from scratch. If you check the commits, you can see all the progress made since it began. I'll soon be working on more serious Python projects, but I'll also continue learning Python and other languages ​​like Java, JavaScript, C#, etc.
